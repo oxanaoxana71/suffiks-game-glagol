@@ -662,7 +662,6 @@ function initGame() {
      // Очищаем поле ввода при загрузке
     playerNameInput.value = '';
     
-    }
     
     // Обработчики для экрана приветствия
     startGameBtn.addEventListener('click', startNewGame);
