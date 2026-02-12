@@ -659,10 +659,9 @@ function startNewGame() {
 }
 // Инициализация игры
 function initGame() {
-    // Загружаем сохраненное имя
-    const savedName = localStorage.getItem('suffixGame_playerName');
-    if (savedName) {
-        playerNameInput.value = savedName;
+     // Очищаем поле ввода при загрузке
+    playerNameInput.value = '';
+    
     }
     
     // Обработчики для экрана приветствия
